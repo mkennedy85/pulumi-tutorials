@@ -1,3 +1,0 @@
-name: pulumi-azure-keyvault
-runtime: nodejs
-description: Minimal config which shows how Azure encryption support works

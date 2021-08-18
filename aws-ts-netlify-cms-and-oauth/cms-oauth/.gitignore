@@ -1,9 +1,0 @@
-.DS_Store
-Thumbs.db
-
-/.idea
-/.env*
-
-/bin
-/node_modules
-/tmp

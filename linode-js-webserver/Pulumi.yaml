@@ -1,3 +1,0 @@
-name: webserver-linode
-runtime: nodejs
-description: Basic example of an Linode web server accessible over HTTP

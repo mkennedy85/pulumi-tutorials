@@ -1,3 +1,0 @@
-name: assume-role
-runtime: go
-description: Demonstrate use of AWS AssumeRole Functionality

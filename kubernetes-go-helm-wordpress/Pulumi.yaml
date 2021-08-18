@@ -1,3 +1,0 @@
-name: kubernetes-go-helm-wordpress
-runtime: go
-description: A minimal Go Pulumi program

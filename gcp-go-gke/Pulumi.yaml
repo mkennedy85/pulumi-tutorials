@@ -1,3 +1,0 @@
-name: gcp-go-gke
-runtime: go
-description: A GCP Go Pulumi program with Kubernetes

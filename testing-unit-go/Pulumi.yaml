@@ -1,3 +1,0 @@
-name: testing-unit-go
-runtime: go
-description: An example that applies unit testing to Go and AWS resources.

@@ -1,3 +1,0 @@
-name: azure-cs-vm-scaleset
-description: "Basic C# example of an Azure VM Scale Sets accessible over balanced HTTP endpoint."
-runtime: dotnet

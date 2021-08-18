@@ -1,3 +1,0 @@
-CREATE USER '{{dbUser}}'@'localhost' IDENTIFIED BY '{{dbPassword}}';
-GRANT ALL ON {{dbName}}.* TO '{{dbUser}}'@'localhost';
-FLUSH PRIVILEGES;

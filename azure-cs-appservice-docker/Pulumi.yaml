@@ -1,3 +1,0 @@
-name: azure-cs-appservice-docker
-runtime: dotnet
-description: Creates Azure App Service and Deploys Docker images to it

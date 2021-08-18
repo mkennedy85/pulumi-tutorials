@@ -1,3 +1,0 @@
-name: slss-tps
-runtime: nodejs
-description: Copy and zip TPS reports, using AWS Lambda, from one S3 Bucket to another.

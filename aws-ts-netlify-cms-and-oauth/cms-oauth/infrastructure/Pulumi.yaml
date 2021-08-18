@@ -1,3 +1,0 @@
-name: netlify-cms-oauth-provider-infrastructure
-runtime: nodejs
-description: The infrastructure for the netlify-cms-oauth app
