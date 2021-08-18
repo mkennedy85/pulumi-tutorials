@@ -1,4 +1,0 @@
-name: data-from-s3
-description: A simple Deployment obtaining data from S3
-runtime: nodejs
-template:

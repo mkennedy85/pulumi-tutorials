@@ -1,3 +1,0 @@
-name: gcp-cs-gke
-runtime: dotnet
-description: A GCP C# Pulumi program with Kubernetes

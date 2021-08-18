@@ -1,3 +1,0 @@
-name: aws-go-fargate
-runtime: go
-description: An end-to-end AWS ECS Fargate infrastructure as code project.

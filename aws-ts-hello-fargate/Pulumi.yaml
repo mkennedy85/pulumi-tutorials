@@ -1,3 +1,0 @@
-name: aws-ts-hello-fargate
-runtime: nodejs
-description: A minimal "Hello, World" container in Fargate.

@@ -1,3 +1,0 @@
-name: gcp-go-instance
-runtime: go
-description: A GCP Go Pulumi to create an instance

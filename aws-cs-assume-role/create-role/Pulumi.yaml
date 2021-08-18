@@ -1,3 +1,0 @@
-name: create-role
-runtime: dotnet
-description: Demonstrate use of AWS AssumeRole Functionality in C#

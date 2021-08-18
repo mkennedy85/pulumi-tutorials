@@ -1,3 +1,0 @@
-name: aws-go-slackbot
-runtime: go
-description: Example application for building a slack bot with Pulumi and Go

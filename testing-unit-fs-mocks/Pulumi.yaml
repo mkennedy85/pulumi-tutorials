@@ -1,3 +1,0 @@
-name: test-unit-fs-mocks
-runtime: dotnet
-description: An example that applies unit testing to F# and Azure resources.

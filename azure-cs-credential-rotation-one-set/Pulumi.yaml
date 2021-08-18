@@ -1,3 +1,0 @@
-name: azure-cs-cred-rotation-one-set
-description: Example of rotating secrets with one set of credentials
-runtime: dotnet

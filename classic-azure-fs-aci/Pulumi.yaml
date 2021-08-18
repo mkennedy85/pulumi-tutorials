@@ -1,3 +1,0 @@
-name: azure-fs-aci
-description: Deploys a docker container to Azure Container Instances
-runtime: dotnet

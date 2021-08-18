@@ -1,6 +1,0 @@
-name: gcp-py-functions
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: A minimal Python Pulumi program using Google Cloud Functions.

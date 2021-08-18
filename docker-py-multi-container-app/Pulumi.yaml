@@ -1,6 +1,0 @@
-name: docker-py-multi-container-app
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: Example python app using multiple docker containers

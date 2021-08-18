@@ -1,3 +1,0 @@
-name: ts-many-resources
-runtime: nodejs
-description: A minimal TypeScript Pulumi program

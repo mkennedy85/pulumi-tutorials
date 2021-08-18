@@ -1,3 +1,0 @@
-name: cms
-runtime: nodejs
-description: An AWS TypeScript Pulumi program which build infrastructure for CMS app

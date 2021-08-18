@@ -1,3 +1,0 @@
-name: cs-many-resources
-runtime: dotnet
-description: A minimal C# Pulumi program
