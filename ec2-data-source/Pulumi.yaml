@@ -1,0 +1,6 @@
+name: ec2-data-source
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Demo on ec2 data source

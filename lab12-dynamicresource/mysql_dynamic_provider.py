@@ -33,7 +33,8 @@ class SchemaProvider(ResourceProvider):
     # The function that is called when a new resource needs to be created
     def create(self, args):
         # A connection is created to the MySQL database, and the script is run
-        connection = connector.connect(user=args["creator_name"], 
+        connection = connector.connect(user=args["creator_name"],
+        multi=True, 
         password=args["creator_password"],
         host=args["server_address"],
         database=args["database_name"])
@@ -48,6 +49,7 @@ class SchemaProvider(ResourceProvider):
     def delete(self, id, args):
         # A connection is created to the MySQL database, and the script is run
         connection = connector.connect(user=args["creator_name"],
+        multi=True,
         password=args["creator_password"],
         host=args["server_address"],
         database=args["database_name"])

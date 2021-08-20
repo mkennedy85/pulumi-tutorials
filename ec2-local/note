@@ -1,0 +1,2 @@
+pulumi config set ec2-local-values:appName demo
+pulumi config set ec2-local-values:environmentName prod

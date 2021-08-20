@@ -1,0 +1,6 @@
+name: testing-ec2
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: demo on ec2

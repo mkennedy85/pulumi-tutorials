@@ -1,0 +1,1 @@
+pulumi config set ec2-prompt-variable:ec2InstanceType t2.micro
