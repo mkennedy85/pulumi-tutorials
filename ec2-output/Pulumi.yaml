@@ -1,0 +1,6 @@
+name: ec2-output-demo
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Demo on ec2 output

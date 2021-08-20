@@ -1,0 +1,6 @@
+name: ec2-webserver
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Demo on ec2-web server
