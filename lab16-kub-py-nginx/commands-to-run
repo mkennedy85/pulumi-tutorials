@@ -1,0 +1,3 @@
+pulumi stack init test
+pulumi config set isMinikube false
+pulumi up -y
