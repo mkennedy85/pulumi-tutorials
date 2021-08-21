@@ -1,6 +1,0 @@
-name: s3_aws
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: Demo S3 bucket

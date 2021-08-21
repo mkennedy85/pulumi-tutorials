@@ -1,6 +1,0 @@
-name: docker-lab
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: Demo on Docker Lab
