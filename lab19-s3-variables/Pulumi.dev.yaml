@@ -1,0 +1,3 @@
+config:
+  aws:region: ca-central-1
+  s3-project:bucket_name: chandan
