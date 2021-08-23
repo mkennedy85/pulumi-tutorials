@@ -10,21 +10,21 @@ with `***`.
 
 1. Create a new stack:
 
-    ```bash
-    $ pulumi stack init website-testing
+    ```
+    pulumi stack init website-testing
     ```
 
 2. Set the AWS region:
 
-    ```bash
-    $ pulumi config set aws:region us-west-2
+    ```
+    pulumi config set aws:region us-west-2
     ```
 
 3. Run `pulumi up` to preview and deploy changes.  After the preview is shown you will be
     prompted if you want to continue or not.
 
-    ```bash
-    $ pulumi up
+    ```
+    pulumi up
    Previewing update (vpc-stack)
 
      Type                 Name                Plan
