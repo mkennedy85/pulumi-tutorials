@@ -11,6 +11,6 @@ for range in [{"value": i} for i in range(0, 2)]:
                                     "Name": f"web-{range['value']}",
                                 }))
 
-pulumi.export('publicIp', web[0].public_ip)
-pulumi.export('publicIp', web[1].public_ip)
+pulumi.export('web-0-publicIP', web[0].public_ip)
+pulumi.export('web-1-publicIP', web[1].public_ip)
 
