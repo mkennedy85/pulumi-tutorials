@@ -13,7 +13,7 @@ with `***`.
     pulumi stack init ec2-input-map
     ```
 
-2. Set the AWS region & ec2 instance_type:
+2. Set the AWS region:
 
     ```
     pulumi config set aws:region ap-south-1
