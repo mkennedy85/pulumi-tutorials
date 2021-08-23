@@ -42,6 +42,7 @@ Resources:
     + 9 to create
 
 Do you want to perform this update?  [Use arrows to move, enter to select, type to filter]
+ ```
 > yes
   no
   details
