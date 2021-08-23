@@ -72,7 +72,7 @@ my_ec2_vm = []
 for range in [{"value": i} for i in range(0, ec2_instance_count)]:
     my_ec2_vm.append(aws.ec2.Instance(f"my-ec2-vm-{range['value']}",
                                       ami=ec2_ami_id,
-                                      instance_type=ec2_instance_type_map["medium-apps"],                                     
+                                      instance_type=ec2_instance_type_map["small-apps"],                                     
                                       user_data="""#!/bin/bash
 sudo yum update -y
 sudo yum install httpd -y
