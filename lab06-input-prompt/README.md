@@ -16,7 +16,7 @@ with `***`.
 2. Set the AWS region & ec2 instance_type:
 
     ```
-    pulumi config set aws:region ap-south-1
+    pulumi config set aws:region ca-central-1
     pulumi config set ec2-prompt-variable:ec2InstanceType t2.micro
     ```
 
