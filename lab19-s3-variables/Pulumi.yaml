@@ -1,0 +1,6 @@
+name: s3-project
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: testing s3
