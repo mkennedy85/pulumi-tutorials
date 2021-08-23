@@ -1,9 +1,16 @@
 import json
 import mimetypes
 import os
+import jinja2
 
 from pulumi import export, FileAsset
 from pulumi_aws import s3
+
+f=open("www/index.html")
+t = jinja2.Template(f.read())
+f.close()
+t.stream(myname="Frank").dump("www/index.html")
+
 
 web_bucket = s3.Bucket('s3-website-bucket',
     website=s3.BucketWebsiteArgs(
