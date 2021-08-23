@@ -1,13 +1,10 @@
 import pulumi
 import pulumi_aws as aws
 
-config = pulumi.Config()
-aws_region = config.get("aws")
+config = pulumi.Config("aws")
+aws_region = config.get("region")
 print("Region",aws_region)
-if aws_region is None:
-    aws_region = "ap-south-1"
-ec2_ami_id = config.get("ec2AmiId")
-if ec2_ami_id is None:
+if aws_region is "ca-central-1":
     ec2_ami_id = "ami-02f84cf47c23f1769"
 ec2_instance_count = config.get_float("ec2InstanceCount")
 if ec2_instance_count is None:
