@@ -50,6 +50,6 @@ Do you want to perform this update?  [Use arrows to move, enter to select, type 
 
 4. Now, go to AWS console, navigate to EC2 service & check the created ec2 instance "my_ec2_vm":
  
-5. Open the site URL in a browser with publicIp of ec2 instance & see the output.
+6. Open the site URL in a browser with publicIp of ec2 instance & see the output.
 
 5. To clean up resources, run `pulumi destroy` and answer the confirmation question at the prompt.
