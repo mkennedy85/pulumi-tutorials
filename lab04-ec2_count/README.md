@@ -16,7 +16,7 @@ with `***`.
 2. Set the AWS region:
 
     ```
-    pulumi config set aws:region ap-south-1
+    pulumi config set aws:region ca-central-1
     ```
 
 3. Run `pulumi up` to preview and deploy changes.  After the preview is shown you will be
