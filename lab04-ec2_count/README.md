@@ -10,7 +10,7 @@ with `***`.
 1. Create a new stack:
 
     ```
-    pulumi stack init ec2-webserver
+    pulumi stack init ec2-count
     ```
 
 2. Set the AWS region:
