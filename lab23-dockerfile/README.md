@@ -14,7 +14,6 @@ source venv/bin/activate && pip3 install pulumi_docker
 
 ```
 
-    ```
 Run `pulumi up` to preview and deploy changes.  After the preview is shown you will be
     prompted if you want to continue or not.
  ```   
