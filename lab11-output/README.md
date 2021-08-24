@@ -43,6 +43,7 @@ Do you want to perform this update?  [Use arrows to move, enter to select, type 
 4. Now, go to AWS console, navigate to EC2 service & see the public_ip , private_ip etc of ec2 instance.The same values can be checked in the terminal window:
  ```
 Outputs:
+```
     ec2InstancePrivateip: "172.31.44.47"
     ec2InstancePublicip : "13.234.204.132"
     ec2Publicdns        : "http://ec2-13-234-204-132.ap-south-1.compute.amazonaws.com"
@@ -50,6 +51,7 @@ Outputs:
         [0]: "vpc-ssh-19e913f"
         [1]: "vpc-web-e3f544b"
     ]
+```
 ```
 
 
