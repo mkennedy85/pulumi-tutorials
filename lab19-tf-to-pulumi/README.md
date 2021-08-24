@@ -51,7 +51,6 @@ my_ec2_vm = aws.ec2.Instance("my-ec2-vm",
 
 6. Run `pulumi up` to preview and deploy changes.  After the preview is shown you will be
     prompted if you want to continue or not.
-
  Previewing update (ec2-tf-pul)
 
      Type                 Name                     Plan
