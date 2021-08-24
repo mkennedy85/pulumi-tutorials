@@ -13,6 +13,7 @@ this example. If this is your first time using Pulumi for Kubernetes, we recomme
 
 1. [Install Pulumi](https://www.pulumi.com/docs/get-started/install/)
 2. [Configure Kubernetes for Pulumi](https://www.pulumi.com/docs/intro/cloud-providers/kubernetes/setup/)
+3. kubectl working with a k8s cluster
 
 ## Running the App
 
