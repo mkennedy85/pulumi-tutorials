@@ -1,10 +1,5 @@
 # Creating python hello world app using Dockerfile. 
 
-## Deploying and running the program
-
-Note: some values in this example will be different from run to run.  These values are indicated
-with `***`.
-
 ## Prerequisites
 ```
 pip3 install pulumi_docker
