@@ -1,14 +1,10 @@
 
 
-# Creating nginx web server using Docker Resource Provider. 
-
-Link for tf2pulumi conversion tool https://www.pulumi.com/tf2pulumi/
+# Creating nginx web server using Docker Resource Provider at port 55000
 
 
 ## Deploying and running the program
 
-Note: some values in this example will be different from run to run.  These values are indicated
-with `***`.
 
 ## Prerequisites
 ```
