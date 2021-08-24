@@ -87,3 +87,4 @@ my_ec2_vm = aws.ec2.Instance("my-ec2-vm",
 # Define Output Values
 pulumi.export("ec2InstancePublicip", my_ec2_vm.public_ip)
 pulumi.export("ec2Publicdns", my_ec2_vm.public_dns)
+pulumi.export("ami_id",my_ec2_vm.ami)
