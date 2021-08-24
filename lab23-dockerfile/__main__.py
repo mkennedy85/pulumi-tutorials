@@ -15,5 +15,5 @@ image = Image("my-hello",
 
 container = docker.Container(
     "my-hello", image=image.base_image_name), ports = [{
-        "internal": 80
+        "internal": 4000
     }])
