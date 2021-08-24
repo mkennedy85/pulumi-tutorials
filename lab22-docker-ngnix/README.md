@@ -2,7 +2,7 @@
 
 # Creating nginx web server using Docker Resource Provider. 
 
-Link for tf2pulumi conversion tool https://www.pulumi.com/tf2pulumi/
+
 
 
 ## Deploying and running the program

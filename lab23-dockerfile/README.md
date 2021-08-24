@@ -2,7 +2,7 @@
 
 # Creating python hello world app using Dockerfile. 
 
-Link for tf2pulumi conversion tool https://www.pulumi.com/tf2pulumi/
+
 
 
 ## Deploying and running the program
