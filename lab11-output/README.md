@@ -57,8 +57,5 @@ Outputs:
         [1]: "vpc-web-e3f544b"
     ]
 ```
-```
-
-
 
 5. To clean up resources, run `pulumi destroy` and answer the confirmation question at the prompt.
