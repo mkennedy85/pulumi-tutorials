@@ -41,7 +41,7 @@ Do you want to perform this update?  [Use arrows to move, enter to select, type 
   details
 
     ```
-
+```
 4. Now, go to AWS console, navigate to EC2 service & see the public_ip , private_ip etc of ec2 instance.The same values can be checked in the terminal window:
  ```
 Outputs:
