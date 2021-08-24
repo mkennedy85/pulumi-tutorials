@@ -29,9 +29,11 @@ with `***`.
  +   ├─ aws:ec2:SecurityGroup  vpc-web                  create
  +   ├─ aws:ec2:SecurityGroup  vpc-ssh                  create
  +   └─ aws:ec2:Instance       my-ec2-vm                create
-
+```
 Resources:
+
     + 4 to create
+
 Do you want to perform this update?  [Use arrows to move, enter to select, type to filter]
 ```
 > yes
@@ -49,7 +51,7 @@ Outputs:
     ec2InstancePublicip : "13.234.204.132"
 
     ec2Publicdns        : "http://ec2-13-234-204-132.ap-south-1.compute.amazonaws.com"
-    
+
     ec2SecurityGroups   : [
         [0]: "vpc-ssh-19e913f"
         [1]: "vpc-web-e3f544b"
