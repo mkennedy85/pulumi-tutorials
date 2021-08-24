@@ -29,7 +29,7 @@ with `***`.
  +   ├─ aws:ec2:SecurityGroup  vpc-web                  create
  +   ├─ aws:ec2:SecurityGroup  vpc-ssh                  create
  +   └─ aws:ec2:Instance       my-ec2-vm                create
-```
+
 Resources:
 
     + 4 to create
