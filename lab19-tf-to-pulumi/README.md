@@ -2,7 +2,15 @@
 
 # Creating EC2 instance using tf2pulumi conversion tool. 
 
+This lab could be done either by using the tf2pulumi tool or using the online tool
+
 Link for tf2pulumi conversion tool https://www.pulumi.com/tf2pulumi/
+
+## Install the tool
+```
+brew install pulumi/tap/tf2pulumi
+
+```
 
 ## Deploying and running the program
 
@@ -21,7 +29,16 @@ with `***`.
     pulumi config set aws:region ap-south-1
     
     ```
-4. Now convert the following terraform main.tf file into Pulumi file using tf2pulumi tool.
+4. Now convert the following terraform main.tf file into Pulumi file using tf2pulumi tool. ( remove the __main__.py file )
+
+```
+cd lab19-tf-to-pulumi
+tf2pulumi --target-language python
+
+```
+
+5. Check the __main__.py file
+
 ```
 resource "aws_instance" "my-ec2-vm" {
     ami = "ami-04db49c0fb2215364"
@@ -35,7 +52,7 @@ resource "aws_instance" "my-ec2-vm" {
 }
 
 ```
-5. The output of tf2pulumi conversion tool for ec2-instance is shown below & replace the content of __main__.py with below code.
+6. The output of tf2pulumi conversion tool for ec2-instance is shown below & replace the content of __main__.py with below code. ( in case you used the webtool instead of command line tool )
 
 ```
 import pulumi
@@ -51,7 +68,7 @@ my_ec2_vm = aws.ec2.Instance("my-ec2-vm",
 
 ```
 
-6. Run `pulumi up` to preview and deploy changes.  After the preview is shown you will be
+7. Run `pulumi up` to preview and deploy changes.  After the preview is shown you will be
     prompted if you want to continue or not.
  ```   
  Previewing update (ec2-tf-pul)
@@ -72,7 +89,7 @@ Do you want to perform this update?  [Use arrows to move, enter to select, type 
 ```
 
 
-7. Now, go to AWS console, navigate to EC2 service & check the ec2 instance with name "my-ec2-vm":
+8. Now, go to AWS console, navigate to EC2 service & check the ec2 instance with name "my-ec2-vm":
  
 
-8. To clean up resources, run `pulumi destroy` and answer the confirmation question at the prompt.
+9. To clean up resources, run `pulumi destroy` and answer the confirmation question at the prompt.
