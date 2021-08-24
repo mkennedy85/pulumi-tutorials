@@ -1,0 +1,1 @@
+docker run -d --name webapp-test-1 -p 6060:4000 my-hello:dev

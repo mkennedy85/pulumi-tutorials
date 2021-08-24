@@ -26,7 +26,7 @@ with `***`.
 2. Set the AWS region:
 
     ```
-    pulumi config set aws:region ap-south-1
+    pulumi config set aws:region us-east-1
     
     ```
 4. Now convert the following terraform main.tf file into Pulumi file using tf2pulumi tool. ( remove the __main__.py file )
