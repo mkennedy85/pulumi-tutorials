@@ -45,8 +45,11 @@ Do you want to perform this update?  [Use arrows to move, enter to select, type 
 Outputs:
 ```
     ec2InstancePrivateip: "172.31.44.47"
+
     ec2InstancePublicip : "13.234.204.132"
+
     ec2Publicdns        : "http://ec2-13-234-204-132.ap-south-1.compute.amazonaws.com"
+    
     ec2SecurityGroups   : [
         [0]: "vpc-ssh-19e913f"
         [1]: "vpc-web-e3f544b"
