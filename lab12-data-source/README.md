@@ -43,7 +43,6 @@ Do you want to perform this update?  [Use arrows to move, enter to select, type 
   no
   details
 
-    ```
 ```
 4. Now, go to AWS console, navigate to EC2 service & see the public_ip , public_dns, ami_id etc of ec2 instance.The same values can be cross checked in the terminal window:
 
