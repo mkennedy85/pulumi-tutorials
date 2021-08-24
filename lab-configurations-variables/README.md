@@ -42,8 +42,8 @@ Do you want to perform this update?  [Use arrows to move, enter to select, type 
   details    
 ```
 4. Now, go to AWS console, navigate to S3 service & see that bucket is created:
-Outputs:
 
+Outputs:
 ```
     bucket_name: "s3-kks3-config-86d9fbc"
    
