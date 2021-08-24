@@ -14,7 +14,7 @@ with `***`.
 
     ```
 
-2. Set the AWS region:
+2. Set the AWS region, Bucket_name & dB password:
 
     ```
     pulumi config set aws:region ap-south-1
