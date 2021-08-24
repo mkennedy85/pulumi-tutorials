@@ -51,6 +51,7 @@ my_ec2_vm = aws.ec2.Instance("my-ec2-vm",
 
 6. Run `pulumi up` to preview and deploy changes.  After the preview is shown you will be
     prompted if you want to continue or not.
+ ```   
  Previewing update (ec2-tf-pul)
 
      Type                 Name                     Plan
@@ -59,6 +60,7 @@ my_ec2_vm = aws.ec2.Instance("my-ec2-vm",
 
 Resources:
     + 2 to create
+```
 
 Do you want to perform this update?  [Use arrows to move, enter to select, type to filter]
 ```
@@ -66,8 +68,8 @@ Do you want to perform this update?  [Use arrows to move, enter to select, type 
   no
   details
 
+```
 
-    ```
 
 7. Now, go to AWS console, navigate to EC2 service & check the ec2 instance with name "my-ec2-vm":
  
