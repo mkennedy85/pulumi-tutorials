@@ -33,11 +33,15 @@ pip3 install pulumi_docker
  ```   
 Previewing update (dev)
 
-     Type                 Name        Plan
-     pulumi:pulumi:Stack  docker-dev
+View Live: https://app.pulumi.com/kunal/docker/dev/previews/009e6910-d707-4641-b52c-84c9cc5558dd
+
+     Type                         Name        Plan
+ +   pulumi:pulumi:Stack          docker-dev  create
+ +   ├─ docker:index:RemoteImage  ubuntu      create
+ +   └─ docker:index:Container    ubuntu      create
 
 Resources:
-    3 unchanged
+    + 3 to create
 
 Do you want to perform this update?  [Use arrows to move, enter to select, type to filter]
 > yes

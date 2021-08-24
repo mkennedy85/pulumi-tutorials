@@ -18,7 +18,7 @@ with `***`.
 2. Set the AWS region:
 
     ```
-    pulumi config set aws:region ap-south-1
+    pulumi config set aws:region us-east-1
     
     ```
 4. Now convert the following terraform main.tf file into Pulumi file using tf2pulumi tool.
@@ -210,9 +210,8 @@ Do you want to perform this update?  [Use arrows to move, enter to select, type 
 
 ```
 
-
 7. Now, go to AWS console, navigate to EC2 service & check the ec2 instance with name "my-ec2-vm-0":
  
-8. 6. Open the site URL in a browser with publicIp of ec2 instance & see the output.
+8. Open the site URL in a browser with publicIp of ec2 instance & see the output.
 
 9. To clean up resources, run `pulumi destroy` and answer the confirmation question at the prompt.
