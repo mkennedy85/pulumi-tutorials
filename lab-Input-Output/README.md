@@ -1,6 +1,6 @@
 
 
-# Create an EC2 instance & export the resource values. 
+# Create an S3 bucket to serve as a static website. 
 
 ## Deploying and running the program
 
