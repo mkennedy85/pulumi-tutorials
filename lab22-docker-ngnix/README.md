@@ -61,4 +61,9 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS  
 37228017aeab   dd34e67e3371   "/docker-entrypoint.…"   5 seconds ago    Up 5 seconds    0.0.0.0:49164->80/tcp
 
 ```
-8. To clean up resources, run `pulumi destroy` and answer the confirmation question at the prompt.
+9. Curl the web server
+```
+curl http://localhost:55000/
+```
+
+10. To clean up resources, run `pulumi destroy` and answer the confirmation question at the prompt.
