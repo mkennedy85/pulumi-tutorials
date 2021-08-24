@@ -1,0 +1,6 @@
+name: tf-to-pulumi
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Demo on terraform to pulumi conversion.
