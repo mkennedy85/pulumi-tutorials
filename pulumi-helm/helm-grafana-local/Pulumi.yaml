@@ -1,6 +1,0 @@
-name: helm-grafana
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: Demo on Helm Grafana
