@@ -22,27 +22,27 @@ Kubernetes](https://www.pulumi.com/docs/intro/cloud-providers/kubernetes/setup/)
 Create a new stack:
 
 ```bash
-    $ pulumi stack init dev
+    pulumi stack init dev
 ```
 
 Create configuration keys for the root username and password for the Jenkins instance we are
 about to create:
 
 ```bash
-    $ pulumi config set username <your desired username>
-    $ pulumi config set password <your desired password> --secret
+    pulumi config set username admin
+    pulumi config set password admin --secret
 ```
 
 Configure Kubernetes to run without Minikube:
 
 ```bash
-    $ pulumi config set isMinikube false
+    pulumi config set isMinikube false
 ```
 
 Preview the deployment of the application:
 
 ```bash
-    $ pulumi preview
+    pulumi preview
     Previewing update (dev):
          Type                                         Name                       Plan       
      +   pulumi:pulumi:Stack                          kubernetes-py-jenkins-dev  create     
@@ -59,7 +59,7 @@ Preview the deployment of the application:
 Perform the deployment:
 
 ```bash
-    $ pulumi up --skip-preview
+    pulumi up --skip-preview
     Updating (dev):
          Type                                         Name                       Status      
      +   pulumi:pulumi:Stack                          kubernetes-py-jenkins-dev  created     
@@ -81,7 +81,7 @@ Perform the deployment:
 The deployment is complete! Use `pulumi stack output external_ip` to see the IP of the Service that we just deployed:
 
 ```bash
-    $ pulumi stack output external_ip
+    pulumi stack output external_ip
     35.239.72.50
 ```
 
@@ -96,7 +96,7 @@ You can use the username and password that you saved in your Pulumi config to lo
 When you're ready to be done with Jenkins, you can destroy the instance:
 
 ```bash
-    $ pulumi destroy
+    pulumi destroy
         Destroying (dev):
          Type                                         Name                       Status      
      -   pulumi:pulumi:Stack                          kubernetes-py-jenkins-dev  deleted     
