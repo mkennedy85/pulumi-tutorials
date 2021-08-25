@@ -35,6 +35,8 @@ class ServiceDeployment(ComponentResource):
     service: Service
     ip_address: Output[str]
 
+    ip_address = "Test"
+
     def __init__(self, name: str, image: str,
                  resources: ResourceRequirementsArgs = None, replicas: int = None,
                  ports: Sequence[int] = None, allocate_ip_address: bool = None,
@@ -79,7 +81,8 @@ class ServiceDeployment(ComponentResource):
         if allocate_ip_address:
             if is_minikube:
                 self.ip_address = self.service.spec.apply(lambda s: s.cluster_ip)
+                print("No bueno")
             else:
                 ingress=self.service.status.apply(lambda s: s.load_balancer.ingress[0])
-                self.ip_address = ingress.apply(lambda i: ingress.ip or ingress.hostname or "")
+                self.ip_address = ingress.apply(lambda ingress: ingress.ip or ingress.hostname or "")
         self.register_outputs({})
