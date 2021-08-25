@@ -1,3 +1,4 @@
+
 """A Python Pulumi program"""
 
 from typing import Container
@@ -14,6 +15,9 @@ image = Image("my-hello",
               skip_push=True)
 
 container = docker.Container(
-    "my-hello", image=image.base_image_name), ports = [{
+    "my-hello", image=image.base_image_name, ports=[{
         "internal": 4000
     }])
+
+
+

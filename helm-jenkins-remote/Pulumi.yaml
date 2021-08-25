@@ -1,0 +1,6 @@
+name: helm-test-1
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: A minimal Kubernetes Python Pulumi program
