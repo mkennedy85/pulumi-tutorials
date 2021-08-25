@@ -5,7 +5,7 @@
 1. A running Kubernetes Cluster.
 2. kubectl cli.
 3. helm package manager.
-4. Add the stabe repo "helm repo add stable https://charts.helm.sh/stable"
+4. Add the stable repo "helm repo add stable https://charts.helm.sh/stable"
 
 ```
 
