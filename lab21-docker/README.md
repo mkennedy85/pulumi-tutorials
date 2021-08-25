@@ -1,8 +1,4 @@
-
-
 # Creating ubuntu image using Docker Resource Provider. 
-
-
 
 
 ## Deploying and running the program

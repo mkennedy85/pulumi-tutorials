@@ -1,11 +1,4 @@
-
-
 # Creating python hello world app using Dockerfile. 
-
-
-
-## Deploying and running the program
-
 
 
 ## Prerequisites
