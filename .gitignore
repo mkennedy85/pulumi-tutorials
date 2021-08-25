@@ -27,3 +27,4 @@ Gopkg.lock
 .settings/
 .project
 .classpath
+kubectl

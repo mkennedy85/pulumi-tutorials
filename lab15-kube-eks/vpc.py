@@ -1,4 +1,5 @@
 from pulumi_aws import ec2, get_availability_zones
+from pulumi import ResourceOptions
 
 ## VPC
 
@@ -19,6 +20,7 @@ igw = ec2.InternetGateway(
     tags={
         'Name': 'pulumi-vpc-ig',
     },
+    opts=ResourceOptions(depends_on=[vpc]),
 )
 
 eks_route_table = ec2.RouteTable(
@@ -49,6 +51,7 @@ for zone in zones.names:
         tags={
             'Name': f'pulumi-sn-{zone}',
         },
+        opts=ResourceOptions(depends_on=[vpc]),
     )
     ec2.RouteTableAssociation(
         f'vpc-route-table-assoc-{zone}',
