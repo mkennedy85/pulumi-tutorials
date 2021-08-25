@@ -1,26 +1,19 @@
 
 
-# Creating nginx web server using Docker Resource Provider. 
+# Creating nginx web server using Docker Resource Provider at port 55000
+
+
+## Deploying and running the program
+
 
 ## Prerequisites
 ```
-pip3 install pulumi_docker
+source vene/bin/activate && pip3 install pulumi_docker
 
 ```
 
-1. Create a directory:
 
-    ```
-    mkdir docker-nginx && cd docker-nginx
-    ```
-
-2. Create a new Pulumi project:
-
-    ```
-    pulumi new python
-    
-    ```
-3. Run `pulumi up` to preview and deploy changes.  After the preview is shown you will be
+2. Run `pulumi up` to preview and deploy changes.  After the preview is shown you will be
     prompted if you want to continue or not.
  ```   
 Previewing update (dev)
@@ -41,16 +34,21 @@ Do you want to perform this update?  [Use arrows to move, enter to select, type 
 
 ```
 
-7. Now, run the following docker command to check the running container:
+4. Now, run the following docker command to check the running container:
 
 ```
 docker ps
 
 ```
-8. Now, check the port number (49164) as shown below.Open browser with localhost_ip:port & check the output:
+5. Now, check the port number (49164) as shown below.Open browser with localhost_ip:port & check the output:
 ```
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                                 NAMES
 37228017aeab   dd34e67e3371   "/docker-entrypoint.…"   5 seconds ago    Up 5 seconds    0.0.0.0:49164->80/tcp
 
 ```
-8. To clean up resources, run `pulumi destroy` and answer the confirmation question at the prompt.
+6. Curl the web server
+```
+curl http://localhost:55000/
+```
+
+7. To clean up resources, run `pulumi destroy` and answer the confirmation question at the prompt.

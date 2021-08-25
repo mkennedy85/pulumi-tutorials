@@ -1,5 +1,6 @@
 # Creating ubuntu image using Docker Resource Provider. 
 
+
 ## Deploying and running the program
 
 Note: some values in this example will be different from run to run.  These values are indicated
