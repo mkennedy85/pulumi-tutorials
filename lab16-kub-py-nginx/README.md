@@ -28,8 +28,9 @@ aws eks --region us-east-2 update-kubeconfig --name $(pulumi stack output cluste
 ```
 Or 
 
-The environment variable: $KUBECONFIG,
-Or in current user’s default kubeconfig directory: ~/.kube/config
+The environment variable: ```$KUBECONFIG``` ,
+
+Or in current user’s default kubeconfig directory: ``` ~/.kube/config ```
 
 
 ## Running the App
