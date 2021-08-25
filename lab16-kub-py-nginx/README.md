@@ -11,9 +11,26 @@ this example. If this is your first time using Pulumi for Kubernetes, we recomme
 
 ## Pre-Requisites
 
-1. [Install Pulumi](https://www.pulumi.com/docs/get-started/install/)
-2. [Configure Kubernetes for Pulumi](https://www.pulumi.com/docs/intro/cloud-providers/kubernetes/setup/)
-3. kubectl working with a k8s cluster
+Install Pulumi
+```
+brew install pulumi
+```
+Install Kubectl on MacOS
+
+```
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl"
+```
+
+You should already have k8s cluster created and kubectl configured ( if you have pulumi to install eks then use below command
+
+```
+aws eks --region us-east-2 update-kubeconfig --name $(pulumi stack output cluster-name)
+```
+Or 
+
+The environment variable: $KUBECONFIG,
+Or in current user’s default kubeconfig directory: ~/.kube/config
+
 
 ## Running the App
 
