@@ -1,0 +1,6 @@
+name: helm-jenkins
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Demo on Jenkins using pulumi & helm

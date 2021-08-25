@@ -1,5 +1,3 @@
-
-
 # Create an EC2 instance & export the resource values. 
 
 ## Deploying and running the program
